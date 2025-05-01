@@ -16,12 +16,12 @@ DPR_DO_NOT_WANT_TO_TALK_TO_YOU = 2
 
 DIAMETER_GY_APPLICATION_ID = 4
 
-GY_ORIGIN_REALM       = "epc.mnc00.mcc716.3gppnetwork.org"
-GY_DESTINATION_HOST   = "ocs.mnc00.mcc716.3gppnetwork.org"
-GY_DESTINATION_REALM  = "epc.mnc00.mcc716.3gppnetwork.org"
+GY_ORIGIN_REALM       = "epc.mnc04.mcc716.3gppnetwork.org"
+GY_DESTINATION_HOST   = "ocs.mnc04.mcc716.3gppnetwork.org"
+GY_DESTINATION_REALM  = "epc.mnc04.mcc716.3gppnetwork.org"
 GY_SERVICE_CONTEXT_ID = "vendor@3gpp.org"
 GY_USER_NAME          = "test.com.pe"
-MCC_MNC = "71600"
+MCC_MNC = "71604"
 
 #------------------------------------------------------
 #-- CER: Capabilities-Exchange-Request definition    --

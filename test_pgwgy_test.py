@@ -164,17 +164,17 @@ def MGyT2(session_id,o_host,state,msisdn,imsi,apn,usedquota):
 
 if __name__ == '__main__':
     LoadDictionary("dictDiameter.xml")
-    HOST="10.20.12.206"
+    HOST="10.20.12.191"
     PORT=3868
-    O_HOST = "testpgw01.gy.epc.mnc00.mcc716.3gppnetwork.org"
+    O_HOST = "testpgw03.gy.epc.mnc00.mcc716.3gppnetwork.org"
     SESSION_ID=create_Session_Id(O_HOST)
-    IMSI="716001000000141"
-    MSISDN="51987654330"
+    IMSI="716047000000141"
+    MSISDN="51987654302"
     STATE_ID=192837465
-    APN="mvno.pe"
+    APN="Grupo3.pe"
     ##deben ser iguales RG y RG_ITERATIONS!!
-    RG = [1, 30]  # Lista de Rating Groups
-    RG_ITERATIONS = {1: 1, 30: 1}  # Cantidad de iteraciones para cada RG
+    RG = [26]  # Lista de Rating Groups
+    RG_ITERATIONS = {26: 1}  # Cantidad de iteraciones para cada RG
     USED_UNITS = {rg: 0 for rg in RG}  # Diccionario para manejar unidades utilizadas por RG
     CCTO_AVP = 0 #Unidades entregadas por el OCS
     MSG_SIZE=4096
