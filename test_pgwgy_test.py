@@ -173,8 +173,8 @@ if __name__ == '__main__':
     STATE_ID=192837465
     APN="Grupo3.pe"
     ##deben ser iguales RG y RG_ITERATIONS!!
-    RG = [26]  # Lista de Rating Groups
-    RG_ITERATIONS = {26: 1}  # Cantidad de iteraciones para cada RG
+    RG = [30]  # Lista de Rating Groups
+    RG_ITERATIONS = {30:4}  # Cantidad de iteraciones para cada RG
     USED_UNITS = {rg: 0 for rg in RG}  # Diccionario para manejar unidades utilizadas por RG
     CCTO_AVP = 0 #Unidades entregadas por el OCS
     MSG_SIZE=4096
